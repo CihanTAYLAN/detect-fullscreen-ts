@@ -1,12 +1,14 @@
-detect-fullscreen - Detect fullscreen windows in node.js
-========================================================
+# Forkend on https://www.npmjs.com/package/detect-fullscreen
+
+# detect-fullscreen-ts - Detect fullscreen windows in node.js
 
 This is some code that tries to detect if the user has a fullscreen window open. It should work pretty well in OSX. It works in Windows but needs some better support for computers with multiple screens. Unfortunately it won't work at all in Linux right now, although I would like to change that.
 
 ## How To Use It
+
 ```
-var x = require('detect-fullscreen')
-console.log(x.isFullscreen())
+import detectFS from "detect-fullscreen-ts"
+console.log(detectFS.isFullscreen())
 => true/false
 ```
 
@@ -20,5 +22,4 @@ On Windows, the code checks the bounds of the active window. If they meet/exceed
 
 ## What Happens With Multiple Displays?
 
-If a computer has multiple displays, and one of them has a fullscreen window, then `isFullscreen()` will return true. 
-
+If a computer has multiple displays, and one of them has a fullscreen window, then `isFullscreen()` will return true.
