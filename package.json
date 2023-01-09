@@ -1,6 +1,6 @@
 {
   "name": "detect-fullscreen-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Cihan TAYLAN <cihantaylan@cihantaylan.com> (http://muffinlabs.com)",
   "homepage": "https://github.com/CihanTAYLAN/detect-fullscreen-ts",
   "description": "Detect if local machine has a fullscreen app running",
