@@ -7,8 +7,8 @@ This is some code that tries to detect if the user has a fullscreen window open.
 ## How To Use It
 
 ```
-import detectFS from "detect-fullscreen-ts"
-console.log(detectFS.isFullscreen())
+import isFullscreen from "detect-fullscreen-ts"
+console.log(isFullscreen())
 => true/false
 ```
 
