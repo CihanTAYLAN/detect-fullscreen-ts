@@ -1,4 +1,4 @@
-# Forkend on https://www.npmjs.com/package/detect-fullscreen
+#### Forked from https://www.npmjs.com/package/detect-fullscreen
 
 # detect-fullscreen-ts - Detect fullscreen windows in node.js
 

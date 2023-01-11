@@ -1,12 +1,10 @@
 {
     "compilerOptions": {
       "target": "es6",
-      "module": "commonjs",
+      "module": "CommonJS",
       "declaration": true,
-      "outDir": "./lib",
+      "outDir": "./dist",
       "strict": true
-
     },
-    "include": ["src", "extBuild"],
-    "exclude": ["node_modules", "**/__tests__/*"]
+    "include": ["./src/**/*","./build"]
   }

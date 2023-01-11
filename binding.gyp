@@ -2,7 +2,7 @@
   "targets": [
     {
       "target_name": "Fullscreen",
-      "sources": [ "src/fullscreen.cc" ],
+      "sources": [ "src/node-addon/fullscreen.cc" ],
       'cflags': [
         '-Wall',
         '-Wparentheses',
@@ -17,7 +17,7 @@
       'conditions': [
         ['OS == "mac"', {
           'sources': [
-            'src/mac/fullscreen.mm'
+            'src/node-addon/mac/fullscreen.mm'
           ],
           'include_dirs': [
             'System/Library/Frameworks/Carbon.Framework/Headers'
@@ -36,7 +36,7 @@
         }],
         ["OS=='win'", {
           'sources': [
-            'src/win/fullscreen.cc'
+            'src/node-addon/win/fullscreen.cc'
           ],
           'msvs_settings': {
             'VCCLCompilerTool': { "ExceptionHandling": 1, 'AdditionalOptions': [ '-std:c++17' ] }
@@ -44,7 +44,7 @@
         }],
         ["OS=='linux'", {
           'sources': [
-            'src/unsupported/fullscreen.cc'
+            'src/node-addon/unsupported/fullscreen.cc'
           ]
         }]
       ]
